@@ -1,0 +1,16 @@
+de.rnschk.h2server:
+  dbname: rns
+  jdbcport: 9092
+server:
+  port: 9091
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ''
+    type: org.h2.jdbcx.JdbcDataSource
+    url: jdbc:h2:mem:${de.rnschk.h2server.dbname}
+    username: sa
+  h2:
+    console:
+      enabled: true
+      path: /h2

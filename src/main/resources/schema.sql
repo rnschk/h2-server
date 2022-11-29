@@ -1,0 +1,2 @@
+--- used for camunda
+CREATE SCHEMA IF NOT EXISTS CAMUNDA_ADM
